@@ -1,8 +1,10 @@
 #!/bin/bash
 
 # Using $TOP_LEVEL/DockerfileSite, generates static website files, saving to a specified directory.
+
+# Examples:
 # To output to current directory:
-# Example usage: ./generate-site.sh .       .
+# ./generate-site.sh .       .
 # 
 # To output to top of Git repo:
 # ./generate-site.sh
