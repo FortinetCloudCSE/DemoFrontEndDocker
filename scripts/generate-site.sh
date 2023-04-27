@@ -1,7 +1,11 @@
 #!/bin/bash
 
-# Using $TOP_LEVEL/DockerfileSite, generates static website files, saving to directory $TOP_LEVEL/static-site-files,
-# where $TOP_LEVEL is the top level of the repo directory.
+# Using $TOP_LEVEL/DockerfileSite, generates static website files, saving to a specified directory.
+# To output to current directory:
+# Example usage: ./generate-site.sh .       .
+# 
+# To output to top of Git repo:
+# ./generate-site.sh
 
 TOP_LEVEL=$(git rev-parse --show-toplevel)
 
