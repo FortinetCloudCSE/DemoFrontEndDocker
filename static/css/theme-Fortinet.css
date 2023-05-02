@@ -6,7 +6,13 @@
    - remove the following `@import` of the self-defined chroma stylesheet */
 @import "chroma-learn.css";
 
+
 :root{
+
+    --PRIMARY-color: #dc1010; /* brand primary color */
+    --SECONDARY-color: #486ac9; /* brand secondary color */
+    --ACCENT-color: #ff88ff; /* brand accent color, used for search highlights */
+
 
     --MAIN-TEXT-color:#323232; /* Color of text by default */
     --MAIN-TITLES-TEXT-color: #5e5e5e; /* Color of titles h2-h3-h4-h5 */
@@ -54,6 +60,55 @@
     --BOX-TEXT-color: rgba( 16, 16, 16, 1 ); /* fixed color of the content text */
 
 }
+/*
+#main {
+    background: #f7f7f7;
+    margin: 0 0 1.563rem 0;
+}
+
+#body {
+    position: relative;
+    margin-left: 300px;
+    min-height: 100%;
+}
+
+#body .bordered {
+    border: 1px solid #ccc;
+}
+#body .padding {
+    padding: 3rem 6rem;
+}
+@media only all and (max-width: 59.938em) {
+    #body .padding {
+        position: static;
+        padding: 15px 3rem;
+    }
+}
+@media only all and (max-width: 47.938em) {
+    #body .padding {
+        padding: 5px 1rem;
+    }
+}
+#body h1 + hr {
+    margin-top: -1.7rem;
+    margin-bottom: 3rem;
+}
+@media only all and (max-width: 59.938em) {
+    #body #navigation {
+        position: static;
+        margin-right: 0 !important;
+        width: 100%;
+        display: table;
+    }
+}
+
+#body-inner {
+    margin-bottom: 5rem;
+}
+
+*/
+
+/*
 
 body {
     color: var(--MAIN-TEXT-color) !important;
@@ -156,3 +211,5 @@ a:hover {
 #chapter p, #chapter h3 {
     text-align: left;
 }
+
+*/

@@ -10,7 +10,7 @@ weight: 1
 
 1. Use the Jenkins Script with GH credentials to create a new repo in the FortinetCloudCSE GitHub account
 - For now this is limited to Jeff & Rob
-```shell 
+```shell
   ./setup-gh-jenkins <Your Jenkins user id> <Name of Repo Template> <Name of New Repo to be created> <Github username of user to be added as collaborator> [-p]
 ```
 
@@ -22,6 +22,7 @@ This script will:
    2. Directory governance
    3. FortiDevSec scans
 
+---
 
 # MVP0 (LEGACY STEPS only do this if MVP1 steps don't work) 
 
@@ -31,7 +32,7 @@ __** Prerequisite **__ - Ensure Git is installted on your system
 
 ## Step 1 Clone this [git repo](https://github.com/FortinetCloudCSE/DemoFrontEndDocker.git) 
 
-```sh
+```shell
 git clone https://github.com/FortinetCloudCSE/DemoFrontEndDocker.git --recurse-submodules
 ```
 
