@@ -4,8 +4,6 @@ chapter: true
 weight: 10
 ---
 
-# Hugo - Getting started
-
 ## Chapter 1 - Setting up your Hugo environment (15 min)
 
 ### What is Hugo and how easy can this be?

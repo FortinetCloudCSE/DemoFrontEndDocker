@@ -4,8 +4,6 @@ chapter: true
 weight: 1
 ---
 
-# Fortinet Standard Workshop Web format - MVP1
-
 ### Welcome!
 
 This site, hosted on GitHub Pages, will explain how to use the Hugo Web Framework "Learning Theme" to effectively deliver Fortinet Product demos in a constent, simple, and visually appealing format.
@@ -19,6 +17,4 @@ Follow along on this simple tutorial to get up and running with a Hugo formatted
 - Customize the Hugo content folder to display proper information flow for your content/demo/training
 - Publish your Hugo site to GitHub pages via a CI/CD model (GitHub action will automatically re-build your Hugo content whenever you push to the underlying repo)
 
-# About Hugo and Fortinet TECRecipies
-
-# !!!!!!!!!!!!!! RECREATE NEW CONTENT FOR EVERYTHING BELOW HERE !!!!!!!!!!!!!
+# About Hugo and Fortinet TECWorkshops
