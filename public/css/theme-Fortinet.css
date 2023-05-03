@@ -4,10 +4,14 @@
    - remove `markup.highlight.noClasses` from your config.toml
    - set `markup.highlight.style` to a predefined style name in your config.toml
    - remove the following `@import` of the self-defined chroma stylesheet */
-@import "chroma-learn.css";
-
+/*@import "chroma-relearn-dark.css";*/
 
 :root{
+
+    --PRIMARY-color: #dc1010; /* brand primary color */
+    --SECONDARY-color: #486ac9; /* brand secondary color */
+    --ACCENT-color: #ff88ff; /* brand accent color, used for search highlights */
+
 
     --MAIN-TEXT-color:#323232; /* Color of text by default */
     --MAIN-TITLES-TEXT-color: #5e5e5e; /* Color of titles h2-h3-h4-h5 */
@@ -46,17 +50,68 @@
     --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
     --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
 
-    --MENU-VISITED-color: #ff3333; /* Color of 'page visited' icons in menu */
-    --MENU-SECTION-HR-color: #2b2020; /* Color of <hr> separator in menu */
+/*    --MENU-VISITED-color: #dc1010; /* Color of 'page visited' icons in menu */
+/*    --MENU-SECTION-HR-color: #2b2020; /* Color of <hr> separator in menu */
 
     /* added base styling for boxes */
     --BOX-CAPTION-color: rgba( 255, 255, 255, 1 ); /* color of the title text */
     --BOX-BG-color: rgba( 255, 255, 255, .833 ); /* color of the content background */
     --BOX-TEXT-color: rgba( 16, 16, 16, 1 ); /* fixed color of the content text */
 
+    --BROWSER-theme: light; /* name of the theme for browser scrollbars of the main section */
+    --MERMAID-theme: default; /* name of the default Mermaid theme for this variant, can be overridden in config.toml */
+    --SWAGGER-theme: light; /* name of the default Swagger theme for this variant, can be overridden in config.toml */
+
+
+}
+/*
+#main {
+    background: #f7f7f7;
+    margin: 0 0 1.563rem 0;
 }
 
-/*
+#body {
+    position: relative;
+    margin-left: 300px;
+    min-height: 100%;
+}
+
+#body .bordered {
+    border: 1px solid #ccc;
+}
+#body .padding {
+    padding: 3rem 6rem;
+}
+@media only all and (max-width: 59.938em) {
+    #body .padding {
+        position: static;
+        padding: 15px 3rem;
+    }
+}
+@media only all and (max-width: 47.938em) {
+    #body .padding {
+        padding: 5px 1rem;
+    }
+}
+#body h1 + hr {
+    margin-top: -1.7rem;
+    margin-bottom: 3rem;
+}
+@media only all and (max-width: 59.938em) {
+    #body #navigation {
+        position: static;
+        margin-right: 0 !important;
+        width: 100%;
+        display: table;
+    }
+}
+
+#body-inner {
+    margin-bottom: 5rem;
+}
+
+*/
+
 
 body {
     color: var(--MAIN-TEXT-color) !important;
@@ -159,5 +214,3 @@ a:hover {
 #chapter p, #chapter h3 {
     text-align: left;
 }
-
-*/

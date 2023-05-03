@@ -111,11 +111,11 @@ enableEmoji = true
   # When using mulitlingual website, disable the switch language button.
   disableLanguageSwitchingButton = true
   # Hide breadcrumbs in the header and only show the current page title
-  disableBreadcrumb = true
+  disableBreadcrumb = false
 
 
  # If set to true, hide table of contents menu in the header of all pages
-  disableToc = true
+  disableToc = false
   # If set to false, load the MathJax module on every page regardless if a MathJax shortcode is present
   disableMathJax = true
   # Specifies the remote location of the MathJax js
