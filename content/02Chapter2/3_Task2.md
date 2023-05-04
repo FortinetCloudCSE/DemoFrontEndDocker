@@ -1,6 +1,7 @@
 ---
-title: "Task 2 - Task MD pages"
-chapter: true
+title: "Task 2 - Create/Modify MD pages"
+menuTitle: "b: MD Pages"
+chapter: false
 weight: 2
 ---
 

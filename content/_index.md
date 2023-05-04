@@ -1,6 +1,7 @@
 ---
-title: "Fortinet Standard Workshop Web format - MVP1"
-chapter: true
+title: "Fortinet TECWorkshop Template - MVP1"
+menuTitle: "TECWorkshop Template"
+chapter: false
 weight: 1
 ---
 

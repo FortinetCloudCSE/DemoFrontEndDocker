@@ -1,6 +1,7 @@
 ---
 title: "Task 3 - Create GitHub action for Hugo Publish"
-chapter: true
+menuTitle: "c: GitHub Action"
+chapter: false
 weight: 3
 ---
 

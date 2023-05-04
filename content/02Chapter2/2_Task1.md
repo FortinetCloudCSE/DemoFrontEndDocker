@@ -1,6 +1,6 @@
 ---
-title: "Task 1 - Chapter Folder Structure"
-chapter: true
+title: "Task 1 - Chapter Directory Structure"
+menuTitle: "a: Directories"
 weight: 1
 ---
 
