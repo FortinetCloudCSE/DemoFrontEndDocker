@@ -1,8 +1,8 @@
 ---
 title: "Fortinet TECWorkshop Template - MVP1"
 menuTitle: "TECWorkshop Template"
-chapter: false
 weight: 1
+archetype: home
 ---
 
 ### Welcome!
