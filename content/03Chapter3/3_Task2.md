@@ -1,6 +1,7 @@
 ---
 title: "Task 2 - Push content to your repo"
-chapter: true
+menuTitle: "b: Git push"
+chapter: false
 weight: 2
 ---
 
