@@ -50,8 +50,8 @@
     --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
     --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
 
-/*    --MENU-VISITED-color: #dc1010; /* Color of 'page visited' icons in menu */
-/*    --MENU-SECTION-HR-color: #2b2020; /* Color of <hr> separator in menu */
+    --MENU-VISITED-color: #dc1010; /* Color of 'page visited' icons in menu */
+    --MENU-SECTION-HR-color: #2b2020; /* Color of <hr> separator in menu */
 
     /* added base styling for boxes */
     --BOX-CAPTION-color: rgba( 255, 255, 255, 1 ); /* color of the title text */
@@ -214,3 +214,5 @@ a:hover {
 #chapter p, #chapter h3 {
     text-align: left;
 }
+
+*/
