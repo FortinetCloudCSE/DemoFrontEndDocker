@@ -12,6 +12,6 @@ weight: 2
    git push  
 ```  
 
-{{<notice note>}}  You may need to first issue a **git fetch** or other actions to get your content properly uploaded to GitHub. {{< /notice >}}
+{{%notice note%}}  You may need to first issue a **git fetch** or other actions to get your content properly uploaded to GitHub. {{% /notice %}}
 
 
